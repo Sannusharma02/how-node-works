@@ -1,7 +1,7 @@
-console.log(arguments);
-console.log(require('module'));
+// console.log(arguments);
+// console.log(require('module'));
 
-const C = require('test-module-1');
+const C = require('./test-module-1');
 
 const calc1 =new C();
 
